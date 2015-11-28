@@ -1,0 +1,225 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SERVICELOADER_DIALOG DIALOGEX 0, 0, 371, 283
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "游戏服务装载器"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "关闭",IDCANCEL,314,262,50,14
+    GROUPBOX        "信息输出台",IDC_STATIC,7,7,186,217
+    CONTROL         "",IDC_SERVICE_EVENT,"RichEdit20A",ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_NOHIDESEL | ES_READONLY | 
+                    ES_WANTRETURN | WS_BORDER | WS_VSCROLL | WS_TABSTOP,7,17,
+                    185,206,WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE
+    PUSHBUTTON      "启动服务",IDC_START,7,230,50,14,WS_DISABLED
+    PUSHBUTTON      "停止服务",IDC_STOP,75,230,50,14,WS_DISABLED
+    PUSHBUTTON      "创建房间",IDC_CREATE,7,247,50,14
+    PUSHBUTTON      "打开房间",IDC_OPEN,75,247,50,14
+    PUSHBUTTON      "配置房间",IDC_OPTION,144,247,50,14,WS_DISABLED
+    PUSHBUTTON      "保存房间配置",IDC_SAVE_OPTION,213,247,50,14,WS_DISABLED
+    GROUPBOX        "系统配置",IDC_STATIC,196,7,168,216
+    PUSHBUTTON      "服务控制",IDC_CONTROL_START,144,230,50,14,WS_DISABLED
+    GROUPBOX        "LoginServer",IDC_STATIC,198,19,163,83
+    GROUPBOX        "DB",IDC_STATIC,198,106,163,80
+    GROUPBOX        "CenterServer",IDC_STATIC,198,188,163,32
+    PUSHBUTTON      "保存系统配置",IDC_SYSTEM,213,230,50,14
+    LTEXT           "中心服务器IP",IDC_STATIC,205,203,48,8
+    CONTROL         "",IDC_CENTER_SERVER_IP,"SysIPAddress32",WS_TABSTOP,255,
+                    200,100,15
+    LTEXT           "DB地址",IDC_STATIC,204,121,26,8
+    CONTROL         "",IDC_SERVER_DATABASE_IP,"SysIPAddress32",WS_TABSTOP,
+                    249,119,100,15
+    LTEXT           "DB用户名",IDC_STATIC,204,137,34,8
+    EDITTEXT        IDC_SERVER_DATABASE_NAME,249,167,49,14,ES_AUTOHSCROLL
+    LTEXT           "DB密码",IDC_STATIC,205,154,26,8
+    EDITTEXT        IDC_SERVER_DATABASE_PASS,249,151,49,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    LTEXT           "数据库名称",IDC_STATIC,204,170,41,8
+    EDITTEXT        IDC_SERVER_DATABASE_USER,250,135,49,14,ES_AUTOHSCROLL
+    LTEXT           "DB地址",IDC_STATIC,203,36,26,8
+    CONTROL         "",IDC_USER_DATABASE_IP,"SysIPAddress32",WS_TABSTOP,249,
+                    33,100,15
+    LTEXT           "DB用户名",IDC_STATIC,203,52,34,8
+    EDITTEXT        IDC_USER_DATABASE_NAME,249,81,49,14,ES_AUTOHSCROLL
+    LTEXT           "DB密码",IDC_STATIC,205,68,26,8
+    EDITTEXT        IDC_USER_DATABASE_PASS,249,65,49,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    LTEXT           "数据库名称",IDC_STATIC,203,84,41,8
+    EDITTEXT        IDC_USER_DATABASE_USER,249,49,49,14,ES_AUTOHSCROLL
+    LTEXT           "Author: FreeKnight     Email: duzhi5368@163.com",
+                    IDC_STATIC,7,268,167,8
+END
+
+IDD_PARAMETER DIALOGEX 0, 0, 288, 273
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "确定",IDOK,175,252,50,14
+    PUSHBUTTON      "取消",IDCANCEL,230,252,50,14
+    PUSHBUTTON      "附加权限",IDC_APPEND_RIGHT,7,252,50,14,WS_DISABLED
+    PUSHBUTTON      "比赛设置",IDC_MATCH_OPTION,63,252,50,14,WS_DISABLED
+    PUSHBUTTON      "高级选项",IDC_HIGH_OPTION,119,252,50,14,WS_DISABLED
+    GROUPBOX        "常规配置",IDC_STATIC,7,7,273,80
+    LTEXT           "房间标识：",IDC_STATIC,16,22,41,8
+    EDITTEXT        IDC_SERVER_ID,59,19,53,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "类型标识：",IDC_STATIC,168,22,41,8
+    EDITTEXT        IDC_OPTION_KIND_ID,214,18,53,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "桌子标识：",IDC_STATIC,15,39,41,8
+    LTEXT           "站点标识：",IDC_STATIC,167,38,41,8
+    EDITTEXT        IDC_TABLE_COUNT,59,36,53,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_STATION_ID,214,34,53,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "游戏类型：",IDC_STATIC,15,56,41,8
+    COMBOBOX        IDC_GAME_GENRE,59,53,54,30,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "房间名字：",IDC_STATIC,15,72,41,8
+    EDITTEXT        IDC_SERVER_NAME,59,68,104,14,ES_AUTOHSCROLL
+    LTEXT           "房间人数：",IDC_STATIC,167,54,41,8
+    LTEXT           "单元积分：",IDC_STATIC,167,70,41,8
+    EDITTEXT        IDC_MAX_CONNECT,214,50,53,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_CELL_SCORE,213,66,53,14,ES_AUTOHSCROLL | ES_NUMBER
+    GROUPBOX        "组件配置",IDC_STATIC,7,92,273,83
+    LTEXT           "组件类型：",IDC_STATIC,15,109,41,8
+    EDITTEXT        IDC_KIND_NAME,212,105,55,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "游戏名称：",IDC_STATIC,165,109,41,8
+    EDITTEXT        IDC_KIND_ID,61,105,55,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    LTEXT           "椅子数目：",IDC_STATIC,15,125,41,8
+    EDITTEXT        IDC_CHAIR_COUNT,61,122,55,14,ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    LTEXT           "默认数据库：",IDC_STATIC,165,124,49,8
+    EDITTEXT        IDC_DEF_DATABASE_NAME,211,121,55,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "服务组件名：",IDC_STATIC,16,140,49,8
+    EDITTEXT        IDC_SERVICE_MODULE,61,138,55,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "客户端进程：",IDC_STATIC,166,140,49,8
+    EDITTEXT        IDC_CLIENT_MODULE,211,137,55,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "组件说明：",IDC_STATIC,16,157,41,8
+    EDITTEXT        IDC_MODULE_DESCRIBE,61,154,205,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    GROUPBOX        "其他配置",IDC_STATIC,7,181,273,65
+    LTEXT           "监听端口：",IDC_STATIC,15,196,41,8
+    EDITTEXT        IDC_PORT,61,193,53,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "服务地址：",IDC_STATIC,163,196,41,8
+    CONTROL         "",IDC_DATABASE_ADDR,"SysIPAddress32",WS_TABSTOP,171,209,
+                    102,13
+    LTEXT           "数据库名称：",IDC_STATIC,15,214,49,8
+    EDITTEXT        IDC_DATABASE_NAME,61,210,53,14,ES_AUTOHSCROLL
+    LTEXT           "数据库地址：",IDC_STATIC,121,212,49,8
+    COMBOBOX        IDC_SERVER_ADDR,210,194,56,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "限制比赛局数：",IDC_LIMIT_DRAW,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,15,231,72,10
+    EDITTEXT        IDC_MATCH_DRAW,83,227,53,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "由管理员控制开始",IDC_CONTROL_START,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,163,231,80,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_SERVICELOADER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 364
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 276
+    END
+
+    IDD_PARAMETER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 280
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 266
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ServerModuleLoader.ico"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

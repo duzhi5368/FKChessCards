@@ -1,0 +1,119 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Visual C++ generated include file.
+// Used by GameClientLobby.rc
+//
+#define IDB_EP_050                      101
+#define IDB_EP_001                      102
+#define IDD_EXPRESSION                  102
+#define IDB_EP_002                      103
+#define IDB_EP_003                      104
+#define IDB_EP_004                      105
+#define IDB_EP_005                      106
+#define IDB_EP_006                      107
+#define IDB_EP_007                      108
+#define IDB_EP_008                      109
+#define IDB_EP_009                      110
+#define IDB_EP_010                      111
+#define IDB_EP_011                      112
+#define IDB_EP_012                      113
+#define IDB_EP_013                      114
+#define IDB_EP_014                      115
+#define IDB_EP_015                      116
+#define IDB_EP_016                      117
+#define IDB_EP_017                      118
+#define IDB_EP_018                      119
+#define IDB_EP_019                      120
+#define IDB_EP_020                      121
+#define IDB_EP_021                      122
+#define IDB_EP_022                      123
+#define IDB_EP_023                      124
+#define IDB_EP_024                      125
+#define IDB_EP_025                      126
+#define IDB_EP_026                      127
+#define IDB_EP_027                      128
+#define IDB_EP_028                      129
+#define IDB_EP_029                      130
+#define IDB_EP_030                      131
+#define IDB_EP_031                      132
+#define IDB_EP_032                      133
+#define IDB_EP_033                      134
+#define IDB_EP_034                      135
+#define IDB_EP_035                      136
+#define IDB_EP_036                      137
+#define IDB_EP_037                      138
+#define IDB_EP_038                      139
+#define IDB_EP_039                      140
+#define IDB_EP_040                      141
+#define IDB_EP_041                      142
+#define IDB_EP_042                      143
+#define IDB_EP_043                      144
+#define IDB_EP_044                      145
+#define IDB_EP_045                      146
+#define IDB_EP_046                      147
+#define IDB_EP_047                      148
+#define IDB_EP_048                      149
+#define IDB_EP_049                      150
+#define IDB_EP_086                      151
+#define IDB_EP_051                      152
+#define IDB_EP_052                      153
+#define IDB_EP_053                      154
+#define IDB_EP_054                      155
+#define IDB_EP_055                      156
+#define IDB_EP_056                      157
+#define IDB_EP_057                      158
+#define IDB_EP_058                      159
+#define IDB_EP_059                      160
+#define IDB_EP_060                      161
+#define IDB_EP_061                      162
+#define IDB_EP_062                      163
+#define IDB_EP_063                      164
+#define IDB_EP_064                      165
+#define IDB_EP_065                      166
+#define IDB_EP_066                      167
+#define IDB_EP_067                      168
+#define IDB_EP_068                      169
+#define IDB_EP_069                      170
+#define IDB_EP_070                      171
+#define IDB_EP_071                      172
+#define IDB_EP_072                      173
+#define IDB_EP_073                      174
+#define IDB_EP_074                      175
+#define IDB_EP_075                      176
+#define IDB_EP_076                      177
+#define IDB_EP_077                      178
+#define IDB_EP_078                      179
+#define IDB_EP_079                      180
+#define IDB_EP_080                      181
+#define IDB_EP_081                      182
+#define IDB_EP_082                      183
+#define IDB_EP_083                      184
+#define IDB_EP_084                      185
+#define IDB_EP_085                      186
+#define IDB_TREE_IMAGE                  187
+#define IDB_FACE_NORMAL1                188
+#define IDB_FACE_NORMAL                 189
+#define IDB_FACE_SMALL1                 190
+#define IDB_FACE_SMALL                  191
+#define IDB_LIST_IMAGE                  192
+#define IDB_BITMAP93                    193
+#define IDB_MAN                         193
+#define IDD_DOWN_LOAD                   195
+#define IDC_RETRY                       1001
+#define IDC_PROGRESS                    1003
+#define IDC_STATUS                      1004
+#define IDC_DESCRIPTION                 1005
+#define IDC_COMPANION_TREE              1006
+#define IDD_COMPANION_MANAGER           1006
+#define IDC_DETEST_LIST                 1007
+#define IDC_FRIEND_LIST                 1008
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        196
+#define _APS_NEXT_COMMAND_VALUE         40001
+#define _APS_NEXT_CONTROL_VALUE         1008
+#define _APS_NEXT_SYMED_VALUE           101
+#endif
+#endif

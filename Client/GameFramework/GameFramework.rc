@@ -1,0 +1,200 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_GAME_FRAME DIALOGEX 0, 0, 420, 302
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | 
+    WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+CAPTION "游戏框架"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_VOR_SPLITER,"Static",SS_BLACKFRAME,269,7,3,288
+END
+
+IDD_FRAME_VIDEO DIALOGEX 0, 0, 104, 105
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_STATIC_VIDEO,"Static",SS_BLACKRECT,0,0,103,104
+    PUSHBUTTON      "",IDC_BUTTON_ViSIBLE,3,87,14,14
+    PUSHBUTTON      "",IDC_BUTTON_VIDEO_SETUP,87,87,14,14
+    CONTROL         "",IDC_PROGRESS_SOUND_POP,"msctls_progress32",WS_BORDER,
+                    17,89,72,10
+END
+
+IDD_FRAME_CONTROL DIALOGEX 0, 0, 228, 259
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_USER_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_OWNERDRAWFIXED | LVS_ALIGNLEFT | WS_TABSTOP,7,7,214,
+                    93
+    CONTROL         "",IDC_CHAT_MESSAGE,"RichEdit20A",ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_READONLY | ES_NUMBER | WS_VSCROLL | 
+                    WS_TABSTOP,64,101,157,84
+    PUSHBUTTON      "",IDC_GAME_OPTION,7,105,50,14
+    PUSHBUTTON      "",IDC_GAME_RULE,7,125,50,14
+    PUSHBUTTON      "",IDC_ROOM,7,146,50,14
+    PUSHBUTTON      "",IDC_QUIT_GAME,7,168,50,14
+    GROUPBOX        "聊天信息",IDC_STATIC,7,194,214,58
+    PUSHBUTTON      "",IDC_PHRASE,15,206,14,14
+    PUSHBUTTON      "",IDC_EXPRESSION,39,206,14,14
+    PUSHBUTTON      "",IDC_COLOR_SET,63,206,14,14
+    PUSHBUTTON      "",IDC_CLEAN_SCREEN,87,206,14,14
+    COMBOBOX        IDC_CHAT_OBJECT,15,230,48,30,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP,
+                    WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_CHAT_INPUT,67,230,127,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "",IDC_SEND_CHAT,200,230,14,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_GAME_FRAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 413
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 295
+    END
+
+    IDD_FRAME_CONTROL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 221
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 252
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_VIEW_TR             BITMAP                  "Res\\VIEW_TR.bmp"
+IDB_BT_CLEAN_SCREEN     BITMAP                  "Res\\BT_CLEAN_SCREEN.bmp"
+IDB_BT_COLOR_SET        BITMAP                  "Res\\BT_COLOR_SET.bmp"
+IDB_BT_EXPESSION        BITMAP                  "Res\\BT_EXPESSION.bmp"
+IDB_BT_GAME_RULE        BITMAP                  "Res\\BT_GAME_RULE.bmp"
+IDB_BT_OPTION           BITMAP                  "Res\\BT_OPTION.bmp"
+IDB_BT_QUIT             BITMAP                  "Res\\BT_QUIT.bmp"
+IDB_BT_SEND_CHAT        BITMAP                  "Res\\BT_SEND_CHAT.bmp"
+IDB_BITMAP9             BITMAP                  "Res\\GAMEBG1.bmp"
+IDB_GAME_BG             BITMAP                  "Res\\GAMEBG.bmp"
+IDB_BITMAP11            BITMAP                  "Res\\icon_addFriend.bmp"
+IDB_BITMAP12            BITMAP                  "Res\\icon_close.bmp"
+IDB_BITMAP13            BITMAP                  "Res\\icon_config2.bmp"
+IDB_BITMAP14            BITMAP                  "Res\\icon_config.bmp"
+IDB_BITMAP15            BITMAP                  "Res\\icon_help.bmp"
+IDB_BITMAP16            BITMAP                  "Res\\icon_newVideo.bmp"
+IDB_BITMAP17            BITMAP                  "Res\\icon_out.bmp"
+IDB_BITMAP18            BITMAP                  "Res\\icon_photo.bmp"
+IDB_BITMAP19            BITMAP                  "Res\\icon_room.bmp"
+IDB_BITMAP20            BITMAP                  "Res\\icon_unVideo.bmp"
+IDB_BITMAP21            BITMAP                  "Res\\icon_unVoice.bmp"
+IDB_BITMAP22            BITMAP                  "Res\\icon_video.bmp"
+IDB_BITMAP23            BITMAP                  "Res\\icon_voice.bmp"
+IDB_BITMAP24            BITMAP                  "Res\\NewVideoWnd.bmp"
+IDB_BITMAP25            BITMAP                  "Res\\NoVideo.bmp"
+IDB_BITMAP26            BITMAP                  "Res\\talkTable.bmp"
+IDB_USER_READY          BITMAP                  "Res\\USER_READY.bmp"
+IDB_USER_STATUS         BITMAP                  "Res\\USER_STATUS.bmp"
+IDB_USER_TIMER          BITMAP                  "Res\\USER_TIMER.bmp"
+IDB_BITMAP30            BITMAP                  "Res\\userTable.bmp"
+IDB_BITMAP31            BITMAP                  "Res\\VIDEOWND.BMP"
+IDB_VIEW_B              BITMAP                  "Res\\VIEW_B.bmp"
+IDB_VIEW_BL             BITMAP                  "Res\\VIEW_BL.bmp"
+IDB_VIEW_BR             BITMAP                  "Res\\VIEW_BR.bmp"
+IDB_VIEW_L              BITMAP                  "Res\\VIEW_L.bmp"
+IDB_VIEW_R              BITMAP                  "Res\\VIEW_R.bmp"
+IDB_VIEW_T              BITMAP                  "Res\\VIEW_T.bmp"
+IDB_VIEW_TL             BITMAP                  "Res\\VIEW_TL.bmp"
+IDB_BITMAP2             BITMAP                  "Res\\LEFT_VIEW\\NoVideo.bmp"
+IDB_LEFT_VIEW_LB        BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_LB.bmp"
+IDB_LEFT_VIEW_LBM       BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_LBM.bmp"
+IDB_LEFT_VIEW_LM        BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_LM.bmp"
+IDB_LEFT_VIEW_LT        BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_LT.bmp"
+IDB_LEFT_VIEW_LTM       BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_LTM.bmp"
+IDB_LEFT_VIEW_MB        BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_MB.bmp"
+IDB_LEFT_VIEW_MM        BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_MM.bmp"
+IDB_LEFT_VIEW_MT        BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_MT.bmp"
+IDB_LEFT_VIEW_RB        BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_RB.bmp"
+IDB_LEFT_VIEW_RBM       BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_RBM.bmp"
+IDB_LEFT_VIEW_RM        BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_RM.bmp"
+IDB_LEFT_VIEW_RT        BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_RT.bmp"
+IDB_LEFT_VIEW_RTM       BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_RTM.bmp"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

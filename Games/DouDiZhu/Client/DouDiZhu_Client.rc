@@ -1,0 +1,174 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_GAME_SCORE DIALOGEX 0, 0, 200, 96
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CLIPSIBLINGS | 
+    WS_CLIPCHILDREN | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_OPTION DIALOGEX 0, 0, 186, 123
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,27,102,50,14
+    PUSHBUTTON      "取消",IDCANCEL,105,102,50,14
+    GROUPBOX        "用户设置",IDC_STATIC,7,27,172,74
+    CONTROL         "使用声音效果",IDC_ENABLE_SOUND,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,25,40,64,10
+    CONTROL         "顺时针顺序出牌",IDC_DEASIL_ORDER,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,26,60,72,10
+    LTEXT           "扑克间距",IDC_STATIC,27,80,33,8
+    LTEXT           "象素",IDC_STATIC,105,80,17,8
+    COMBOBOX        IDC_CARD_SPACE,61,78,42,30,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP,WS_EX_CLIENTEDGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_GAME_SCORE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 193
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 89
+    END
+
+    IDD_OPTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 116
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\other\\LoginServer.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CARD_CUR            CURSOR                  "res\\other\\HAND_CUR.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+OUT_CARD                WAVE                    "res\\sound\\OUT_CARD.wav"
+GAME_END                WAVE                    "res\\sound\\GAME_END.WAV"
+GAME_LOST               WAVE                    "res\\sound\\GAME_LOST.wav"
+GAME_START              WAVE                    "res\\sound\\GAME_START.WAV"
+GAME_WARN               WAVE                    "res\\sound\\GAME_WARN.WAV"
+GAME_WIN                WAVE                    "res\\sound\\GAME_WIN.wav"
+MOST_CARD               WAVE                    "res\\sound\\MOST_CARD.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_VIEW_LC             BITMAP                  "res\\pic\\VIEW_CENTER_TL.bmp"
+IDB_AUTO_OUT_CARD       BITMAP                  "res\\pic\\AUTO_OUT_CARD.bmp"
+IDB_BANKER              BITMAP                  "res\\pic\\BANKER.bmp"
+IDB_BOMB                BITMAP                  "res\\pic\\BOMB.bmp"
+IDB_CARD                BITMAP                  "res\\pic\\CARD.bmp"
+IDB_CARD_800            BITMAP                  "res\\pic\\CARD_800.bmp"
+IDB_GAME_END            BITMAP                  "res\\pic\\GAME_END.bmp"
+GAME_LOGO               BITMAP                  "res\\pic\\GAME_LOGO.bmp"
+IDB_GIVE_UP             BITMAP                  "res\\pic\\GIVE_UP.bmp"
+IDB_HEAD_BG             BITMAP                  "res\\pic\\head_bg.bmp"
+IDB_ONE_SCORE           BITMAP                  "res\\pic\\ONE_SCORE.bmp"
+IDB_OUT_CARD            BITMAP                  "res\\pic\\OUT_CARD.bmp"
+IDB_PASS                BITMAP                  "res\\pic\\PASS.bmp"
+IDB_SCORE               BITMAP                  "res\\pic\\SCORE.bmp"
+IDB_START               BITMAP                  "res\\pic\\START.bmp"
+IDB_THREE_SCORE         BITMAP                  "res\\pic\\THREE_SCORE.bmp"
+IDB_TWO_SCORE           BITMAP                  "res\\pic\\TWO_SCORE.bmp"
+IDB_VIEW_BACK           BITMAP                  "res\\pic\\VIEW_BACK.bmp"
+IDB_VIEW_CENTER         BITMAP                  "res\\pic\\VIEW_CENTER.bmp"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

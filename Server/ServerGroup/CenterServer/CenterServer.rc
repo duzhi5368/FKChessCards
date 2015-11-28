@@ -1,0 +1,134 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 370, 230
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "中心服务器"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "启动服务器",IDC_START_SERVICE,313,19,50,14
+    PUSHBUTTON      "退出",IDCANCEL,313,95,50,14
+    GROUPBOX        "信息输出",IDC_STATIC,7,7,297,104
+    CONTROL         "",IDC_SERVICE_EVENT,"RichEdit20A",ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_NOHIDESEL | 
+                    ES_READONLY | WS_BORDER | WS_VSCROLL | WS_TABSTOP,15,20,
+                    279,82
+    PUSHBUTTON      "停止服务器",IDC_STOP_SERVICE,313,41,50,14,WS_DISABLED
+    PUSHBUTTON      "保存参数",IDC_INIT_SERVICE,313,64,50,14
+    GROUPBOX        "网络配置",IDC_STATIC,7,113,356,36
+    GROUPBOX        "DB配置",IDC_STATIC,7,153,356,59
+    LTEXT           "Author: FreeKnightDuzhi",IDC_STATIC,7,215,80,8
+    LTEXT           "E-Mail: duzhio5368@163.com",IDC_STATIC,135,215,95,8
+    LTEXT           "监听端口",IDC_STATIC,20,129,33,8
+    EDITTEXT        IDC_LISTEN_PORT,61,127,52,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    LTEXT           "最大连接数",IDC_STATIC,135,129,41,8
+    EDITTEXT        IDC_MAX_CONNECT,184,126,53,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    LTEXT           "数据库地址",IDC_STATIC,21,170,41,8
+    CONTROL         "",IDC_SERVER_DATABASE_IP,"SysIPAddress32",WS_TABSTOP,75,
+                    168,100,15
+    LTEXT           "数据库用户名",IDC_STATIC,19,193,49,8
+    EDITTEXT        IDC_SERVER_DATABASE_USER,75,189,61,14,ES_AUTOHSCROLL
+    LTEXT           "数据库名",IDC_STATIC,209,170,33,8
+    EDITTEXT        IDC_SERVER_DATABASE_NAME,264,167,61,14,ES_AUTOHSCROLL
+    LTEXT           "数据库密码",IDC_STATIC,209,192,41,8
+    EDITTEXT        IDC_SERVER_DATABASE_PASS,264,190,61,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 363
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 223
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ServerModuleLoader.ico"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
